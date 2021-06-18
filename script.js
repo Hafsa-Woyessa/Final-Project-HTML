@@ -18,8 +18,8 @@ function checkArea () {
   // this compares the userarea to the area to check to see if its correct. If its correct the if statement will be true and will run this loop displaying the "Correct" message.
   if (userarea >= area) {
     document.getElementById('answer').innerHTML = 'Correct!'
-} else if (userarea !== area) {
-  document.getElementById('answer').innerHTML = 'Wrong'
+}  else if (userarea !== area) {
+    document.getElementById('answer').innerHTML = 'Wrong'
   // the else if function will only run if the first if statment is false,if the  user area does not equal to the area.
   }
 }
