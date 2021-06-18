@@ -3,7 +3,7 @@ document.getElementById('button').addEventListener('click', checkArea)
 
 let area = 0
 let userbase = 0
-let userarea = 0
+let userheight = 0
 let userarea = 0
 let answer = 0
 // The let variables are where users enter the values to tell the program what to use in order to calculate the problem and find the result or answer.
