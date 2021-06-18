@@ -2,7 +2,7 @@ document.getElementById('button').addEventListener('click', checkArea)
 // this code is used when the buttons are clicked. It also connect the button to the check area function.
 
 let area = 0
-let const = 0
+let userbase = 0;
 let const = 0
 let userarea = 0
 let const = 0
@@ -12,7 +12,7 @@ function checkArea () {
   userarea = document.getElementById('userarea').value
   userarea = parseInt(userarea)
 
-  area = const * const / 2
+  area = userbase * const / 2
   area = parseInt(area)
 
 // this compares the userarea to the area to check to see if its correct. If its correct the if statement will be true and will run this loop displaying the "Correct" message.
