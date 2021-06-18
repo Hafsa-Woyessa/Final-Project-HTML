@@ -1,0 +1,26 @@
+body {
+  background-color: lightblue;
+  color: green;
+  font-family:"Times New Roman", Times, serif;
+  font-size: 125%;
+}
+
+.container {
+  border: 3px solid white;
+  text-align: center;
+  position: static;
+  padding: 3px;
+  font-size: 145;
+}
+
+.header {
+  font-size: 200%;
+  color: brown;
+}
+
+.triangle {
+  width: 100px;
+  padding-top: 5px;
+  margin: 10px;
+  float: right;
+}
